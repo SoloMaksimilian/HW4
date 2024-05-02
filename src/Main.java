@@ -55,8 +55,22 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то ему можно кататься на аттракционе без сопровождения");
         }
 
+        int numberOfPeople = 103;
+        if(numberOfPeople <=60) {
+            System.out.println("Ваше место в очереди №" + numberOfPeople + ", оно сидячее");
+        }
+        else
+            if (numberOfPeople > 60 && numberOfPeople <= 102) {
+            System.out.println("Ваше место в очереди №" + numberOfPeople + ", оно стоячее"); }
+            else {
+            System.out.println("Ваше место в очереди №" + numberOfPeople + ", вы не попадаете в вагон");
+            }
 
 
+
+            {
+
+        }
 
 
     }
