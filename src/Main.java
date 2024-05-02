@@ -66,11 +66,24 @@ public class Main {
             System.out.println("Ваше место в очереди №" + numberOfPeople + ", вы не попадаете в вагон");
             }
 
-
-
-            {
-
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if(one > two && one> three) {
+            System.out.println("Число One, равное " + one + " больше числа two, равного " + two + " и больше числа three, равного " + three);
         }
+        else if (two > one && two> three) {
+            System.out.println("Число two, равное " + two + " больше числа one, равного " + one + " и больше числа three, равного " + three);
+        }
+        else if (three>one && three>two) {
+            System.out.println("Число three, равное " + three + " больше числа one, равного " + one + " и больше числа two, равного " + two);
+        }
+        else {
+            System.out.println("Есть минимум пара одинаковый числел");
+        }
+
+
+
 
 
     }
