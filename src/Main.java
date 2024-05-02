@@ -19,6 +19,14 @@ public class Main {
             System.out.println("На улице " + temperature + " градусов, шапку нужна взять с собой");
         }
 
+        int speed = 61;
+        boolean exceeding = speed >60;
+        if (exceeding) {
+            System.out.println("Если скорость " + speed + ", придется заплатить штраф");
+        }
+        else {System.out.println("Если скорость " + speed + ", можно ездить спокойно");
+        }
+
 
     }
 }
